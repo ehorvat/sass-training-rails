@@ -13,11 +13,9 @@
  *= require_tree .
  *= require_self
  */
-.heading {
-	font-family: sans-serif;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+h1 {
 	color: #900;
 }
 
-h1 {
- @extends: .heading;
-}
